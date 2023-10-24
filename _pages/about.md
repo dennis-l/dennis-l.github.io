@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="font-weight-bold">PhD Candidate</span> Northwestern University 
+subtitle: <span class="font-weight-bold">PhD Candidate</span> • Northwestern University 
 
 profile:
   align: right
