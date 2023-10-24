@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dennis-l.github.io/website/sitemap.xml
+Sitemap: https://dennis-l.github.io/sitemap.xml
