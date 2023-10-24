@@ -7,10 +7,7 @@ subtitle: <span class="font-weight-bold">PhD Candidate</span> Northwestern Unive
 profile:
   align: right
   image: sofia_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>1800 Sherman Avenue, 7415</p>
-    <p>Evanston, IL 60201</p>
+  image_circular: true # crops the image to make it circular
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
