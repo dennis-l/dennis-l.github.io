@@ -6,7 +6,7 @@ subtitle: <span class="font-weight-bold">PhD Candidate</span> Northwestern Unive
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sofia_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>1800 Sherman Avenue, 7415</p>
