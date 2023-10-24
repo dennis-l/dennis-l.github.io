@@ -21,12 +21,12 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Senior Analyst 
+    - title: Senior Analyst, Business Intelligence 
+      institution: Wayfair LLC
+      year: 2018 - 2018
+    - title: Analyst, Business Intelligence
       institution: Wayfair LLC
       year: 2016 - 2018
-      description:
-        - Analytics Department
-        - Business Intelligence, Notifications Marketing
    
 
 # - title: Open Source Projects
