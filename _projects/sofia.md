@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
+title: SOFIA/HAWC+
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: research
+related_publications: 2021ApJ...918...39L, 2022ApJ...932...34C
 ---
 
 Every project has a beautiful feature showcase page.
