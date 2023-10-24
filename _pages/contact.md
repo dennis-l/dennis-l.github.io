@@ -2,9 +2,9 @@
 layout: page
 permalink: /contact/
 title: contact
-description: contact information
+description:
 nav: false
-nav_order: 5
+nav_order: 4
 ---
 
 **Email** 
