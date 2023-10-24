@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: curriculum vitae
 nav: true
 nav_order: 1
 cv_pdf: dennislee2023_cv.pdf
