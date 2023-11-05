@@ -343,15 +343,18 @@ blockquote {
 
   &:hover {
     color: var(--global-hover-color);
+    @keyframes spin-sun-spin {
+      to{ 
+        transform-origin: 75% 75%;
+        transform: rotate(360deg); 
+      }
+    } 
+    // i.fa-sun{
+    //   animation: spin-sun-spin 550ms infinite linear;
+    // }
   }
 }
-.fa-sun {
-  &:hover {
-    transform: rotate(360deg);
-  }
-}
-
-// Social (bottom)
+// Social (bottom)sun-spin 750ms infinite linear
 
 .social {
   text-align: center;
