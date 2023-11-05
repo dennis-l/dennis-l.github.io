@@ -343,6 +343,10 @@ blockquote {
 
   &:hover {
     color: var(--global-hover-color);
+  }
+}
+.fa-sun {
+  &:hover {
     transform: rotate(360deg);
   }
 }
