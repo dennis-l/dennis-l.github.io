@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Formatter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    #formattedJson {
+      white-space: pre;
+      background: #f0f0f0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: monospace;
+      overflow-x: auto;
+    }
+
+    .error {
+      color: red;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>JSON Formatter</h1>
+  <textarea id="jsonInput" placeholder="Paste unformatted JSON here..."></textarea>
+  <div id="formattedJson"></div>
+  <div id="error" class="error"></div>
+
+  <script>
+    const jsonInput = document.getElementById('jsonInput');
+    const formattedJson = document.getElementById('formattedJson');
+    const error = document.getElementById('error');
+
+    jsonInput.addEventListener('input', () => {
+      const input = jsonInput.value;
+      formattedJson.textContent = '';
+      error.textContent = '';
+
+      try {
+        const parsed = JSON.parse(input);
+        const pretty = JSON.stringify(parsed, null, 2);
+        formattedJson.textContent = pretty;
+      } catch (e) {
+        error.textContent = 'Invalid JSON: ' + e.message;
+      }
+    });
+  </script>
+
+</body>
+</html>
