@@ -11,3 +11,4 @@ see also [misc](/misc)
 
 - [bibcode extractor](bibcode-extractor)
 - [json formatter](json-formatter)
+- [arxiv QR code generator](arxiv-qr-code)
