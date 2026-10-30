@@ -6,7 +6,7 @@
 #     - name: Date of Birth
 #       value: 14th March 1879
 #     # - name: Languages
-#     #   value: English, German
+#     #   value: English
 
 - title: Education
   type: time_table
@@ -21,6 +21,9 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: JPL Postdoctoral Fellow
+      institution: NASA Jet Propulsion Laboratory
+      year: 2024 - 2026
     - title: Senior Analyst, Business Intelligence 
       institution: Wayfair LLC
       year: 2018 - 2018
